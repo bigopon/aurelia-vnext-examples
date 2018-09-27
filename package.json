@@ -7,10 +7,10 @@
     "serve": "http-server -c-1 -p 9000 dist"
   },
   "dependencies": {
-    "@aurelia/jit": "^0.2.0-dev.20180927",
-    "@aurelia/kernel": "^0.2.0-dev.20180926",
-    "@aurelia/plugin-svg": "^0.2.0",
-    "@aurelia/runtime": "^0.2.0-dev.20180927",
+    "@aurelia/jit": "dev",
+    "@aurelia/kernel": "dev",
+    "@aurelia/plugin-svg": "dev",
+    "@aurelia/runtime": "dev",
     "@types/d3-scale": "^2.0.1",
     "d3-scale": "^2.1.2"
   },
