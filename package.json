@@ -1,0 +1,30 @@
+{
+  "name": "jit-webpack-ts",
+  "version": "0.1.1",
+  "scripts": {
+    "watch": "webpack-dev-server --no-inline",
+    "build": "rimraf dist && webpack --config webpack.config.js -p",
+    "serve": "http-server -c-1 -p 9000 dist"
+  },
+  "dependencies": {
+    "@aurelia/jit": "^0.2.0-dev.20180927",
+    "@aurelia/kernel": "^0.2.0-dev.20180926",
+    "@aurelia/plugin-svg": "^0.2.0",
+    "@aurelia/runtime": "^0.2.0-dev.20180927",
+    "@types/d3-scale": "^2.0.1",
+    "d3-scale": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.22",
+    "html-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "http-server": "latest",
+    "rimraf": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-bundle-analyzer": "^3.0.2",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  }
+}
